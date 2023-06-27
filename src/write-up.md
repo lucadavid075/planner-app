@@ -6,7 +6,7 @@ The Music Player Widget is a valuable addition to the Planner app, designed to e
 ## Why the Music Player Widget?
 1. ### Create an Inspiring Atmosphere: Listening to music can help create a conducive environment for planning and organizing. The Music Player Widget allows you to set the mood and atmosphere that best suits your working style, enhancing your planning experience.
 
-2. ### Improve Focus and Productivity:** Research has shown that music can positively impact productivity by improving mood, reducing stress, and increasing focus. This widget aims to enhance your concentration and help you accomplish tasks more efficiently by incorporating a music player within the Planner app.
+2. ### Improve Focus and Productivity: Research has shown that music can positively impact productivity by improving mood, reducing stress, and increasing focus. This widget aims to enhance your concentration and help you accomplish tasks more efficiently by incorporating a music player within the Planner app.
 
 3. **Relaxation and Stress Relief: Planning and organizing can sometimes be overwhelming, leading to stress and decreased productivity. The Music Player Widget offers a means to unwind and relax during planning sessions, promoting stress relief and maintaining a calm mindset.
 
