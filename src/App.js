@@ -5,16 +5,18 @@ import WidgetGalleryModal from './modals/WidgetGalleryModal';
 import Draggable from 'react-draggable';
 import TimerWidget from './widgets/TimerWidget';
 import CalendarWidget from './widgets/CalendarWidget';
-import MusicPlayerWidget from './widgets/MusicPlayerWidget';
+import MusicPlayerWidget from './widgets/MyCustomWidget';
 import ReminderListWidget from './widgets/ReminderListWidget';
+import GuessTheNumberGame from './widgets/MyCustomWidget2';
  
 function App() {
  const [widgets, setWidgets] = useState([
   { id: new Date().getTime(), component: <ClockWidget />, area: 'main-widget', name: "Date and Time" },
-  { id: new Date().getTime() + 2, component: <CalendarWidget />, area: 'right-widget', name: "Calendar" },
+  { id: new Date().getTime() + 2, component: <CalendarWidget />, area: 'left-widget', name: "Calendar" },
   { id: new Date().getTime() + 1, component: <TimerWidget />, area: 'left-widget', name:"Timer" },
-  { id: new Date().getTime() + 3, component: <ReminderListWidget />, area: 'none-widget', name:"Reminder" },
-  { id: new Date().getTime() + 4, component: <MusicPlayerWidget />, area: 'none-widget', name:"Music Player" },
+  { id: new Date().getTime() + 3, component: <ReminderListWidget />, area: 'left-widget', name:"Reminder" },
+  { id: new Date().getTime() + 4, component: <MusicPlayerWidget />, area: 'main-widget', name:"Music Player" },
+  { id: new Date().getTime() + 5, component: <GuessTheNumberGame />, area: 'right-widget', name:"Guess Number" },
  ])
  const [showWidgetModal, setShowWidgetModal] = useState(false)
  const [selectedWidgetArea, setSelectedWidgetArea] = useState('')

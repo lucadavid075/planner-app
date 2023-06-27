@@ -3,7 +3,8 @@ import ClockWidget from '../widgets/ClockWidget'
 import ReminderListWidget from '../widgets/ReminderListWidget'
 import TimerWidget from '../widgets/TimerWidget'
 import CalendarWidget from '../widgets/CalendarWidget'
-import MusicPlayerWidget from '../widgets/MusicPlayerWidget'
+import MusicPlayerWidget from '../widgets/MyCustomWidget'
+import GuessTheNumberGame from '../widgets/MyCustomWidget2'
 
 export default function WidgetGalleryModal({ setShowWidgetModal, selectedWidgetArea, widgets, setWidgets }) {
   const [galleryWidgets, setGalleryWidgets] = useState([
@@ -12,6 +13,7 @@ export default function WidgetGalleryModal({ setShowWidgetModal, selectedWidgetA
     { component: <TimerWidget />, name: "Timer" },
     { component: <CalendarWidget />, name: "Calendar" },
     { component: <MusicPlayerWidget />, name:"Music Player" },
+    { component: <GuessTheNumberGame />, name:"Guess Number" },
   ])
   return (
     <div className="modal"

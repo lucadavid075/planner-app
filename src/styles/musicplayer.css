@@ -1,7 +1,7 @@
 .music-player-widget {
     min-width: 300;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: transparent;
   }
   
   .song-container {
@@ -16,13 +16,17 @@
     background-color: #2196f3;
     color: #fff;
     padding: 10px 20px;
-    border: none;
+    margin-top: 12px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
-  .play-button.paused {
+  .play-button.stopped {
     background-color: #c5716b;
+    border-radius: 10px;
+    margin-top: 12px;
+
   }
   
   .play-state {
@@ -30,4 +34,3 @@
     margin-top: 10px;
     font-style: italic;
   }
-  
